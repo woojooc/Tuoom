@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Tuoom",
+			"Path": "D:\\XRMR\\Tuoom1013\\Tuoom\\Source\\Tuoom.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "TuoomEditor",
+			"Path": "D:\\XRMR\\Tuoom1013\\Tuoom\\Source\\TuoomEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
