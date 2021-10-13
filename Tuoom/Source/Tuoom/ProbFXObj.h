@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "Tuoom.h"
 #include "GameFramework/Actor.h"
 #include "ProbFXObj.generated.h"
 
