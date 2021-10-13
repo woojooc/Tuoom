@@ -1,0 +1,22 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\Tuoom).
+  Creating makefile for TuoomEditor (no existing makefile)
+  Parsing headers for TuoomEditor
+    Running UnrealHeaderTool "C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\Tuoom\Tuoom\Tuoom.uproject" "C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\Tuoom\Tuoom\Intermediate\Build\Win64\TuoomEditor\Development\TuoomEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Default.DESKTOP-6F3BTUF\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  LogInit: Display: Loading text-based GConfig....
+  Reflection code generated for TuoomEditor in 3.9996716 seconds
+  Building TuoomEditor...
+  Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.17763.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 9 actions with 16 processes...
+    [1/9] Default.rc2
+    [2/9] SharedPCH.Engine.ShadowErrors.cpp
+    [3/9] Tuoom.cpp
+    [4/9] ProbFXObj.cpp
+    [5/9] Tuoom.init.gen.cpp
+    [6/9] ProbFXObj.gen.cpp
+    [7/9] UE4Editor-Tuoom.lib
+       C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\Tuoom\Tuoom\Intermediate\Build\Win64\UE4Editor\Development\Tuoom\UE4Editor-Tuoom.lib 라이브러리 및 C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\Tuoom\Tuoom\Intermediate\Build\Win64\UE4Editor\Development\Tuoom\UE4Editor-Tuoom.exp 개체를 생성하고 있습니다.
+    [8/9] UE4Editor-Tuoom.dll
+       C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\Tuoom\Tuoom\Intermediate\Build\Win64\UE4Editor\Development\Tuoom\UE4Editor-Tuoom.suppressed.lib 라이브러리 및 C:\Users\Default.DESKTOP-6F3BTUF\Documents\GitHub\Tuoom\Tuoom\Intermediate\Build\Win64\UE4Editor\Development\Tuoom\UE4Editor-Tuoom.suppressed.exp 개체를 생성하고 있습니다.
+    [9/9] TuoomEditor.target
+  Total time in Parallel executor: 16.92 seconds
+  Total execution time: 24.88 seconds
