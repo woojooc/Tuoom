@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\Default.DESKTOP-6F3BTUF\\Desktop\\CHO\\Tuoom\\Tuoom\\Source\\Tuoom\\Tuoom.Build.cs",
-		"C:\\Users\\Default.DESKTOP-6F3BTUF\\Desktop\\CHO\\Tuoom\\Tuoom\\Source\\Tuoom.Target.cs",
-		"C:\\Users\\Default.DESKTOP-6F3BTUF\\Desktop\\CHO\\Tuoom\\Tuoom\\Source\\TuoomEditor.Target.cs"
+		"D:\\XRMR\\Tuoom\\Tuoom\\Source\\Tuoom\\Tuoom.Build.cs",
+		"D:\\XRMR\\Tuoom\\Tuoom\\Source\\Tuoom.Target.cs",
+		"D:\\XRMR\\Tuoom\\Tuoom\\Source\\TuoomEditor.Target.cs"
 	],
 	"EngineVersion": "4.27.0"
 }

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Tuoom.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{57876D88-D2A7-4C61-9694-6E86A70E71A0}</UniqueIdentifier>
+      <UniqueIdentifier>{7C22E6FD-CD54-4449-BDDA-ACAEA6F6AE57}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Tuoom.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{5BADE5E5-7921-49CE-9503-4B8C506F4276}</UniqueIdentifier>
+      <UniqueIdentifier>{6EF9E084-255D-4463-B709-83AAE3BAE498}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Tuoom">
-      <UniqueIdentifier>{7F255A34-6B39-4007-A304-0E03B613C67E}</UniqueIdentifier>
+      <UniqueIdentifier>{05B62480-A91A-4F11-B76F-FBFA03A7F1D6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Tuoom\Tuoom.Build.cs">
       <Filter>Source\Tuoom</Filter>
