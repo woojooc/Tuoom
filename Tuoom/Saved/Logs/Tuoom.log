@@ -1251,3 +1251,102 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.10.13-05.22.40:473][ 85]LogContentValidation: Display: Validating World /Game/Wjung/Level/Wj-CustomRoom.Wj-CustomRoom
 [2021.10.13-05.22.40:474][ 85]LogContentValidation: Display: Validating World /Game/Wjung/Level/Wj-Lobby.Wj-Lobby
 [2021.10.13-05.27.33:201][ 81]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.10.13-05.28.54:948][336]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2021.10.13-05.28.57:351][336]LogSlate: Window 'Save Content' being destroyed
+[2021.10.13-05.28.57:379][336]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CHO/Level/Cho-CustomRoom" FILE="D:/XRMR/Tuoom/Tuoom/Content/CHO/Level/Cho-CustomRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.13-05.28.57:383][336]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2021.10.13-05.28.57:418][336]LogSavePackage: Moving 'D:/XRMR/Tuoom/Tuoom/Saved/Cho-CustomRoom6948319F449FE38D52767A88A298DD27.tmp' to 'D:/XRMR/Tuoom/Tuoom/Content/CHO/Level/Cho-CustomRoom.umap'
+[2021.10.13-05.28.57:420][336]LogFileHelpers: Saving map 'Cho-CustomRoom' took 0.042
+[2021.10.13-05.28.57:421][336]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/YS/Level/Ys-CustomRoom" FILE="D:/XRMR/Tuoom/Tuoom/Content/YS/Level/Ys-CustomRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.13-05.28.57:425][336]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2021.10.13-05.28.57:460][336]LogSavePackage: Moving 'D:/XRMR/Tuoom/Tuoom/Saved/Ys-CustomRoom6201311F4CD881F4410C458D5B607945.tmp' to 'D:/XRMR/Tuoom/Tuoom/Content/YS/Level/Ys-CustomRoom.umap'
+[2021.10.13-05.28.57:463][336]LogFileHelpers: Saving map 'Ys-CustomRoom' took 0.042
+[2021.10.13-05.28.57:480][336]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Wjung/Level/Wj-Lobby.Wj-Lobby
+[2021.10.13-05.28.57:480][336]Cmd: MAP LOAD FILE="D:/XRMR/Tuoom/Tuoom/Content/Wjung/Level/Wj-Lobby.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.10.13-05.28.57:480][336]LightingResults: New page: Lighting Build
+[2021.10.13-05.28.57:480][336]LoadErrors: New page: Loading map: Wj-Lobby.umap
+[2021.10.13-05.28.57:521][336]LogWorld: UWorld::CleanupWorld for CustomRoom, bSessionEnded=true, bCleanupResources=true
+[2021.10.13-05.28.57:521][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.13-05.28.57:521][336]LogWorld: UWorld::CleanupWorld for Cho-CustomRoom, bSessionEnded=true, bCleanupResources=true
+[2021.10.13-05.28.57:521][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.13-05.28.57:521][336]LogWorld: UWorld::CleanupWorld for Ys-CustomRoom, bSessionEnded=true, bCleanupResources=true
+[2021.10.13-05.28.57:521][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.13-05.28.57:521][336]LogWorld: UWorld::CleanupWorld for Wj-CustomRoom, bSessionEnded=true, bCleanupResources=true
+[2021.10.13-05.28.57:521][336]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.13-05.28.57:521][336]MapCheck: New page: Map Check
+[2021.10.13-05.28.57:522][336]LightingResults: New page: Lighting Build
+[2021.10.13-05.28.57:524][336]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.13-05.28.57:526][336]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2021.10.13-05.28.57:530][336]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2021.10.13-05.28.57:533][336]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2021.10.13-05.28.57:534][336]LogAudio: Display: Audio Device (ID: 1) registered with world 'Wj-Lobby'.
+[2021.10.13-05.28.57:549][336]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.10.13-05.28.57:549][336]LogAIModule: Creating AISystem for world Wj-Lobby
+[2021.10.13-05.28.57:553][336]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2021.10.13-05.28.57:559][336]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.10.13-05.28.57:559][336]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.132ms to complete.
+[2021.10.13-05.28.57:559][336]LogFileHelpers: Loading map 'Wj-Lobby' took 0.079
+[2021.10.13-05.28.57:577][336]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.13-05.28.57:577][336]LogContentValidation: Display: Validating World /Game/CHO/Level/Cho-CustomRoom.Cho-CustomRoom
+[2021.10.13-05.28.57:579][336]LogLinker: Warning: [AssetLog] D:\XRMR\Tuoom\Tuoom\Content\CJun\engine_export\mud\M_mud.uasset: Failed to load '/Game/mud/KakaoTalk_20210927_161827332': Can't find file.
+[2021.10.13-05.28.57:579][336]LogLinker: Warning: [AssetLog] D:\XRMR\Tuoom\Tuoom\Content\CJun\engine_export\mud\M_mud.uasset: Failed to load '/Game/mud/KakaoTalk_20210927_161827332': Can't find file.
+[2021.10.13-05.28.57:579][336]LogLinker: Warning: [AssetLog] D:\XRMR\Tuoom\Tuoom\Content\CJun\engine_export\mud\M_mud.uasset: Failed to load '/Game/mud/Wet_Mud_Displacement': Can't find file.
+[2021.10.13-05.28.57:579][336]LogLinker: Warning: [AssetLog] D:\XRMR\Tuoom\Tuoom\Content\CJun\engine_export\mud\M_mud.uasset: Failed to load '/Game/mud/Wet_Mud_Displacement': Can't find file.
+[2021.10.13-05.28.57:579][336]LogLinker: Warning: [AssetLog] D:\XRMR\Tuoom\Tuoom\Content\CJun\engine_export\mud\M_mud.uasset: Failed to load '/Game/Wet_Mud_hong_Albedo': Can't find file.
+[2021.10.13-05.28.57:580][336]LogLinker: Warning: [AssetLog] D:\XRMR\Tuoom\Tuoom\Content\CJun\engine_export\mud\M_mud.uasset: Failed to load '/Game/Wet_Mud_hong_Albedo': Can't find file.
+[2021.10.13-05.28.57:580][336]LogLinker: Warning: [AssetLog] D:\XRMR\Tuoom\Tuoom\Content\CJun\engine_export\mud\M_mud.uasset: Failed to load '/Game/Wet_Mud_hong_Metalness': Can't find file.
+[2021.10.13-05.28.57:580][336]LogLinker: Warning: [AssetLog] D:\XRMR\Tuoom\Tuoom\Content\CJun\engine_export\mud\M_mud.uasset: Failed to load '/Game/Wet_Mud_hong_Metalness': Can't find file.
+[2021.10.13-05.28.57:580][336]LogLinker: Warning: [AssetLog] D:\XRMR\Tuoom\Tuoom\Content\CJun\engine_export\mud\M_mud.uasset: Failed to load '/Game/Wet_Mud_hong_Normal': Can't find file.
+[2021.10.13-05.28.57:580][336]LogLinker: Warning: [AssetLog] D:\XRMR\Tuoom\Tuoom\Content\CJun\engine_export\mud\M_mud.uasset: Failed to load '/Game/Wet_Mud_hong_Normal': Can't find file.
+[2021.10.13-05.28.57:580][336]LogLinker: Warning: [AssetLog] D:\XRMR\Tuoom\Tuoom\Content\CJun\engine_export\mud\M_mud.uasset: Failed to load '/Game/Wet_Mud_hong_Roughness': Can't find file.
+[2021.10.13-05.28.57:580][336]LogLinker: Warning: [AssetLog] D:\XRMR\Tuoom\Tuoom\Content\CJun\engine_export\mud\M_mud.uasset: Failed to load '/Game/Wet_Mud_hong_Roughness': Can't find file.
+[2021.10.13-05.28.57:580][336]LogLinker: Warning: [AssetLog] D:\XRMR\Tuoom\Tuoom\Content\CJun\engine_export\mud\M_mud.uasset: Failed to load '/Game/mud/KakaoTalk_20210927_161827332': Can't find file.
+[2021.10.13-05.28.57:581][336]LogLinker: Warning: [AssetLog] D:\XRMR\Tuoom\Tuoom\Content\CJun\engine_export\mud\M_mud.uasset: Failed to load '/Game/mud/Wet_Mud_Displacement': Can't find file.
+[2021.10.13-05.28.57:581][336]LogLinker: Warning: [AssetLog] D:\XRMR\Tuoom\Tuoom\Content\CJun\engine_export\mud\M_mud.uasset: Failed to load '/Game/Wet_Mud_hong_Albedo': Can't find file.
+[2021.10.13-05.28.57:581][336]LogLinker: Warning: [AssetLog] D:\XRMR\Tuoom\Tuoom\Content\CJun\engine_export\mud\M_mud.uasset: Failed to load '/Game/Wet_Mud_hong_Metalness': Can't find file.
+[2021.10.13-05.28.57:581][336]LogLinker: Warning: [AssetLog] D:\XRMR\Tuoom\Tuoom\Content\CJun\engine_export\mud\M_mud.uasset: Failed to load '/Game/Wet_Mud_hong_Normal': Can't find file.
+[2021.10.13-05.28.57:581][336]LogLinker: Warning: [AssetLog] D:\XRMR\Tuoom\Tuoom\Content\CJun\engine_export\mud\M_mud.uasset: Failed to load '/Game/Wet_Mud_hong_Roughness': Can't find file.
+[2021.10.13-05.28.57:582][336]LogLinker: Warning: [AssetLog] D:\XRMR\Tuoom\Tuoom\Content\CJun\engine_export\toom_factory001.uasset: Failed to load '/Game/01_-_Default': Can't find file.
+[2021.10.13-05.28.57:582][336]LogLinker: Warning: [AssetLog] D:\XRMR\Tuoom\Tuoom\Content\CJun\engine_export\toom_factory001.uasset: Failed to load '/Game/01_-_Default': Can't find file.
+[2021.10.13-05.28.57:582][336]LogLinker: Warning: [AssetLog] D:\XRMR\Tuoom\Tuoom\Content\CJun\engine_export\toom_factory001.uasset: Failed to load '/Game/01_-_Default': Can't find file.
+[2021.10.13-05.28.57:585][336]LogContentValidation: Display: Validating World /Game/YS/Level/Ys-CustomRoom.Ys-CustomRoom
+[2021.10.13-05.28.57:594][336]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2021.10.13-05.28.59:064][508]LogUObjectHash: Compacting FUObjectHashTables data took   0.20ms
+[2021.10.13-05.28.59:084][508]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Wjung/Level/Wj-CustomRoom.Wj-CustomRoom
+[2021.10.13-05.28.59:084][508]Cmd: MAP LOAD FILE="D:/XRMR/Tuoom/Tuoom/Content/Wjung/Level/Wj-CustomRoom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.10.13-05.28.59:084][508]LightingResults: New page: Lighting Build
+[2021.10.13-05.28.59:084][508]LoadErrors: New page: Loading map: Wj-CustomRoom.umap
+[2021.10.13-05.28.59:120][508]LogWorld: UWorld::CleanupWorld for Wj-Lobby, bSessionEnded=true, bCleanupResources=true
+[2021.10.13-05.28.59:120][508]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.13-05.28.59:120][508]MapCheck: New page: Map Check
+[2021.10.13-05.28.59:120][508]LightingResults: New page: Lighting Build
+[2021.10.13-05.28.59:123][508]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.13-05.28.59:124][508]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2021.10.13-05.28.59:129][508]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2021.10.13-05.28.59:133][508]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2021.10.13-05.28.59:136][508]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2021.10.13-05.28.59:136][508]LogAudio: Display: Audio Device (ID: 1) registered with world 'Wj-CustomRoom'.
+[2021.10.13-05.28.59:151][508]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.10.13-05.28.59:151][508]LogAIModule: Creating AISystem for world Wj-CustomRoom
+[2021.10.13-05.28.59:155][508]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2021.10.13-05.28.59:161][508]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.10.13-05.28.59:161][508]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.061ms to complete.
+[2021.10.13-05.28.59:161][508]LogFileHelpers: Loading map 'Wj-CustomRoom' took 0.078
+[2021.10.13-05.29.09:712][770]LogUObjectHash: Compacting FUObjectHashTables data took   0.18ms
+[2021.10.13-05.29.09:732][770]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Wjung/Level/Wj-PlayRoom.Wj-PlayRoom
+[2021.10.13-05.29.09:732][770]Cmd: MAP LOAD FILE="D:/XRMR/Tuoom/Tuoom/Content/Wjung/Level/Wj-PlayRoom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.10.13-05.29.09:732][770]LightingResults: New page: Lighting Build
+[2021.10.13-05.29.09:732][770]LoadErrors: New page: Loading map: Wj-PlayRoom.umap
+[2021.10.13-05.29.09:733][770]LogWorld: UWorld::CleanupWorld for Wj-CustomRoom, bSessionEnded=true, bCleanupResources=true
+[2021.10.13-05.29.09:733][770]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.10.13-05.29.09:733][770]MapCheck: New page: Map Check
+[2021.10.13-05.29.09:733][770]LightingResults: New page: Lighting Build
+[2021.10.13-05.29.09:737][770]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.10.13-05.29.09:738][770]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2021.10.13-05.29.09:738][770]LogAudio: Display: Audio Device (ID: 1) registered with world 'Wj-PlayRoom'.
+[2021.10.13-05.29.09:752][770]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.10.13-05.29.09:752][770]LogAIModule: Creating AISystem for world Wj-PlayRoom
+[2021.10.13-05.29.09:756][770]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2021.10.13-05.29.09:762][770]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.10.13-05.29.09:762][770]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.06ms to complete.
+[2021.10.13-05.29.09:762][770]LogFileHelpers: Loading map 'Wj-PlayRoom' took 0.030
