@@ -32,8 +32,14 @@
 /wd4244
 /wd4838
 /I .
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay
 /I Runtime
+/I Runtime\HeadMountedDisplay\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
+/I Runtime\AugmentedReality\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\MRMesh
+/I Runtime\MRMesh\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime\Engine\Classes
 /I Runtime\Engine\Public
 /I Runtime\TraceLog\Public
@@ -156,8 +162,6 @@
 /I Developer\Settings\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\IntroTutorials
 /I Editor\IntroTutorials\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay
-/I Runtime\HeadMountedDisplay\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\VREditor
 /I Editor\VREditor
 /I Editor\VREditor\Public
@@ -233,6 +237,11 @@
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I C:\Users\home\Desktop\Projects\Tuoom\Tuoom\Intermediate\Build\Win64\UE4Editor\Inc\Tuoom
 /I C:\Users\home\Desktop\Projects\Tuoom\Tuoom\Source
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\MediaAssets
+/I Runtime\MediaAssets\Public
+/I Runtime\Media\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\MediaUtils
+/I Runtime\MediaUtils\Public
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf

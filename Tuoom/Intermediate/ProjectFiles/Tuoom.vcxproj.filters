@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Tuoom.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{2CBC6E34-C3E5-4429-8972-2F720064A334}</UniqueIdentifier>
+      <UniqueIdentifier>{5DD5C713-CFA0-42DF-B904-B18F725115AF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Tuoom.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{572DFCCF-5A14-4E86-AA6F-FE27CB37D550}</UniqueIdentifier>
+      <UniqueIdentifier>{63F8E15E-A886-4B7F-A688-20E8CDDCC172}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,8 +27,26 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Tuoom">
-      <UniqueIdentifier>{D133C791-C841-4CD4-8478-35EDF84A39A7}</UniqueIdentifier>
+      <UniqueIdentifier>{7EC7B3B6-D794-4F32-82DA-C296A4670126}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Tuoom\C_Player.cpp">
+      <Filter>Source\Tuoom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tuoom\C_Player.h">
+      <Filter>Source\Tuoom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tuoom\C_PlayerAnimInstance.cpp">
+      <Filter>Source\Tuoom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tuoom\C_PlayerAnimInstance.h">
+      <Filter>Source\Tuoom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tuoom\C_PlayerMoveComponent.cpp">
+      <Filter>Source\Tuoom</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Tuoom\C_PlayerMoveComponent.h">
+      <Filter>Source\Tuoom</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Tuoom\ProbFXObj.cpp">
       <Filter>Source\Tuoom</Filter>
     </ClCompile>
