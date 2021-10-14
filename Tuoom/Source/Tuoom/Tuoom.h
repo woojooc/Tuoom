@@ -16,7 +16,8 @@ UENUM(BlueprintType)
 enum class EPlayRoomState : uint8 
 {
 	Enter,
-	Ready,
+	Set,
+	Open,
 	Playing,
 	End
 };
