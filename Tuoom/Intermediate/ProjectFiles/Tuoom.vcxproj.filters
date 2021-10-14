@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Tuoom.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{5265D967-263E-477E-A28F-F6274CA22887}</UniqueIdentifier>
+      <UniqueIdentifier>{87BD8E39-44DE-40CA-A8F3-F2E10F1873A2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Tuoom.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{F00E0D73-660B-4AEF-8638-7759767D79CE}</UniqueIdentifier>
+      <UniqueIdentifier>{A2A142F3-C9B9-4A59-A4F6-3B5D463F3692}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Tuoom">
-      <UniqueIdentifier>{43E35366-AC06-4160-96D7-1BD343EEF30A}</UniqueIdentifier>
+      <UniqueIdentifier>{9796E5F1-915C-4766-A057-BE19CA560DF8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Tuoom\Tuoom.Build.cs">
       <Filter>Source\Tuoom</Filter>
@@ -39,9 +39,6 @@
       <Filter>Source\Tuoom</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Tuoom\ProbFXObj.h">
-      <Filter>Source\Tuoom</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Tuoom\Tuoom.h">
       <Filter>Source\Tuoom</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Tuoom\WJ_RoomPoster.cpp">
@@ -62,5 +59,14 @@
     <ClInclude Include="..\..\Source\Tuoom\WJ_VJingTable.h">
       <Filter>Source\Tuoom</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\Tuoom\Tuoom.h">
+      <Filter>Source\Tuoom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Tuoom\WJ_PlayListCtr.h">
+      <Filter>Source\Tuoom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tuoom\WJ_PlayListCtr.cpp">
+      <Filter>Source\Tuoom</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
