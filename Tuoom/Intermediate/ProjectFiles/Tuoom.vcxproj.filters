@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Tuoom.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{EAAA0116-094B-4356-8BE4-715E5C027A64}</UniqueIdentifier>
+      <UniqueIdentifier>{9E903507-B767-4121-98F2-8F3A9FC54714}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Tuoom.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{17402CB9-61AF-4B91-A774-4D6597952F1E}</UniqueIdentifier>
+      <UniqueIdentifier>{FEFFBDB2-7FD9-45B4-AC60-C75C225C210A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Tuoom">
-      <UniqueIdentifier>{782ADE01-B0A7-4A7F-9837-BFF2B93B7459}</UniqueIdentifier>
+      <UniqueIdentifier>{D8C856F1-003C-4A54-9A5A-0A2A6BE05CFC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Tuoom\Tuoom.Build.cs">
       <Filter>Source\Tuoom</Filter>
@@ -56,5 +56,11 @@
     <ClInclude Include="..\..\Source\Tuoom\WJ_TuoomGameInstance.h">
       <Filter>Source\Tuoom</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\Tuoom\WJ_VJingTable.h">
+      <Filter>Source\Tuoom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tuoom\WJ_VJingTable.cpp">
+      <Filter>Source\Tuoom</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
