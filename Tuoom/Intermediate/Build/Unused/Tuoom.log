@@ -1,0 +1,46 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\XRMR\Tuoom).
+  Creating makefile for TuoomEditor (no existing makefile)
+  Parsing headers for TuoomEditor
+    Running UnrealHeaderTool "D:\XRMR\Tuoom\Tuoom\Tuoom.uproject" "D:\XRMR\Tuoom\Tuoom\Intermediate\Build\Win64\TuoomEditor\Development\TuoomEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\Default.DESKTOP-6F3BTUF\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  LogInit: Display: Loading text-based GConfig....
+  Reflection code generated for TuoomEditor in 2.6576971 seconds
+  Deleted hot-reload file: D:\XRMR\Tuoom\Tuoom\Binaries\Win64\UE4Editor-Tuoom-0003.dll
+  Deleted hot-reload file: D:\XRMR\Tuoom\Tuoom\Binaries\Win64\UE4Editor-Tuoom-0003.pdb
+  Deleted hot-reload file: D:\XRMR\Tuoom\Tuoom\Binaries\Win64\UE4Editor-Tuoom-0041.dll
+  Deleted hot-reload file: D:\XRMR\Tuoom\Tuoom\Binaries\Win64\UE4Editor-Tuoom-0041.pdb
+  Deleted hot-reload file: D:\XRMR\Tuoom\Tuoom\Intermediate\Build\Win64\UE4Editor\Development\Tuoom\UE4Editor-Tuoom-0003.lib
+  Deleted hot-reload file: D:\XRMR\Tuoom\Tuoom\Intermediate\Build\Win64\UE4Editor\Development\Tuoom\UE4Editor-Tuoom-0041.lib
+  Building TuoomEditor...
+  Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Distributing 13 actions to XGE
+  --------------------Build System Warning---------------------------------------
+  License is invalid:
+      License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+      This build will run in standalone mode.
+  
+  -------------------------------------------------------------------------------
+  --------------------Project: Default-------------------------------------------
+  SharedPCH.Engine.ShadowErrors.cpp (0:18.43 at +0:00)
+  ProbFXObj.gen.cpp (0:00.57 at +0:18)
+  WJ_TuoomGameInstance.gen.cpp (0:00.56 at +0:19)
+  WJ_TuoomGameInstance.cpp (0:00.42 at +0:19)
+  Tuoom.gen.cpp (0:00.54 at +0:20)
+  WJ_RoomPoster.gen.cpp (0:00.54 at +0:20)
+  WJ_RoomPoster.cpp (0:00.64 at +0:21)
+  Tuoom.cpp (0:00.37 at +0:21)
+  Tuoom.init.gen.cpp (0:00.50 at +0:22)
+  ProbFXObj.cpp (0:00.42 at +0:22)
+  UE4Editor-Tuoom.dll (0:00.65 at +0:23)
+     D:\XRMR\Tuoom\Tuoom\Intermediate\Build\Win64\UE4Editor\Development\Tuoom\UE4Editor-Tuoom.suppressed.lib 라이브러리 및 D:\XRMR\Tuoom\Tuoom\Intermediate\Build\Win64\UE4Editor\Development\Tuoom\UE4Editor-Tuoom.suppressed.exp 개체를 생성하고 있습니다.
+  UE4Editor-Tuoom.lib (0:00.07 at +0:23)
+     D:\XRMR\Tuoom\Tuoom\Intermediate\Build\Win64\UE4Editor\Development\Tuoom\UE4Editor-Tuoom.lib 라이브러리 및 D:\XRMR\Tuoom\Tuoom\Intermediate\Build\Win64\UE4Editor\Development\Tuoom\UE4Editor-Tuoom.exp 개체를 생성하고 있습니다.
+  TuoomEditor.target (0:00.18 at +0:23)
+  ---------------------- Done ----------------------
+  
+      Rebuild All: 1 succeeded, 0 failed, 0 skipped
+  
+  1 build system warning(s):
+     - License is invalid
+  
+  Total time in XGE executor: 24.09 seconds
+  Total execution time: 28.28 seconds
