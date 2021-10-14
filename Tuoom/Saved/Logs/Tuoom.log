@@ -1268,3 +1268,43 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.10.14-00.59.22:910][739]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wjung/Blueprints/WJ_VJingTable" FILE="D:/XRMR/Tuoom/Tuoom/Saved/Autosaves/Game/Wjung/Blueprints/WJ_VJingTable_Auto3.uasset" SILENT=false AUTOSAVING=true
 [2021.10.14-00.59.22:967][739]LogSavePackage: Moving 'D:/XRMR/Tuoom/Tuoom/Saved/WJ_VJingTable_Auto3D3351B6641413B2FE037C3B4E42ED833.tmp' to 'D:/XRMR/Tuoom/Tuoom/Saved/Autosaves/Game/Wjung/Blueprints/WJ_VJingTable_Auto3.uasset'
 [2021.10.14-00.59.22:968][739]LogFileHelpers: Auto-saving content packages took 0.071
+[2021.10.14-01.02.28:822][214]AssetReimport: New page: Outstanding source content changes 오후 7:02:28
+[2021.10.14-01.02.28:852][214]LogEditorFactories: Performing atomic reimport of [D:/XRMR/Tuoom/Tuoom/Content/Wjung/fbx/toom_factory003.fbx]
+[2021.10.14-01.02.28:865][214]LogFbx: Loading FBX Scene from D:/XRMR/Tuoom/Tuoom/Content/Wjung/fbx/toom_factory003.fbx
+[2021.10.14-01.02.28:873][214]LogFbx: FBX Scene Loaded Succesfully
+[2021.10.14-01.02.28:901][214]LogStaticMesh: Building static mesh toom_factory003...
+[2021.10.14-01.02.28:968][214]LogStaticMesh: Built static mesh [0.07s] /Engine/Transient.toom_factory003
+[2021.10.14-01.02.29:090][214]LogStaticMesh: Building static mesh toom_factory003...
+[2021.10.14-01.02.29:153][214]LogStaticMesh: Built static mesh [0.06s] /Game/Wjung/fbx/toom_factory003.toom_factory003
+[2021.10.14-01.02.29:186][214]LogEditorFactories: -- imported successfully
+[2021.10.14-01.02.29:289][215]LogEditorFactories: Performing atomic reimport of [D:/XRMR/Tuoom/Tuoom/Content/Wjung/fbx/toom_factory002.fbx]
+[2021.10.14-01.02.29:293][215]LogFbx: Loading FBX Scene from D:/XRMR/Tuoom/Tuoom/Content/Wjung/fbx/toom_factory002.fbx
+[2021.10.14-01.02.29:298][215]LogFbx: FBX Scene Loaded Succesfully
+[2021.10.14-01.02.29:323][215]LogStaticMesh: Building static mesh toom_factory002...
+[2021.10.14-01.02.29:387][215]LogStaticMesh: Built static mesh [0.06s] /Engine/Transient.toom_factory002
+[2021.10.14-01.02.29:484][215]LogStaticMesh: Building static mesh toom_factory002...
+[2021.10.14-01.02.29:545][215]LogStaticMesh: Built static mesh [0.06s] /Game/Wjung/fbx/toom_factory002.toom_factory002
+[2021.10.14-01.02.29:574][215]LogEditorFactories: -- imported successfully
+[2021.10.14-01.02.29:648][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wjung/fbx/toom_factory003" FILE="D:/XRMR/Tuoom/Tuoom/Content/Wjung/fbx/toom_factory003.uasset" SILENT=true
+[2021.10.14-01.02.29:688][216]LogSavePackage: Moving 'D:/XRMR/Tuoom/Tuoom/Saved/toom_factory003364BA4254DAA9EC1EB268F82937DA29F.tmp' to 'D:/XRMR/Tuoom/Tuoom/Content/Wjung/fbx/toom_factory003.uasset'
+[2021.10.14-01.02.29:697][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wjung/fbx/toom_factory002" FILE="D:/XRMR/Tuoom/Tuoom/Content/Wjung/fbx/toom_factory002.uasset" SILENT=true
+[2021.10.14-01.02.29:735][216]LogSavePackage: Moving 'D:/XRMR/Tuoom/Tuoom/Saved/toom_factory0029CCFD9F844F35E69511C089F034ACF7F.tmp' to 'D:/XRMR/Tuoom/Tuoom/Content/Wjung/fbx/toom_factory002.uasset'
+[2021.10.14-01.02.29:759][217]AssetCheck: New page: Asset Save: multiple assets
+[2021.10.14-01.02.29:759][217]LogContentValidation: Display: Validating StaticMesh /Game/Wjung/fbx/toom_factory002.toom_factory002
+[2021.10.14-01.02.29:759][217]LogContentValidation: Display: Validating StaticMesh /Game/Wjung/fbx/toom_factory003.toom_factory003
+[2021.10.14-01.02.31:296][399]BlueprintLog: New page: Compile WJ_VJingTable
+[2021.10.14-01.02.31:345][399]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2021.10.14-01.02.31:982][471]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wjung/Blueprints/WJ_VJingTable" FILE="D:/XRMR/Tuoom/Tuoom/Content/Wjung/Blueprints/WJ_VJingTable.uasset" SILENT=true
+[2021.10.14-01.02.32:035][471]LogSavePackage: Moving 'D:/XRMR/Tuoom/Tuoom/Saved/WJ_VJingTable4CF57CC646CBE4D0E4C96AA1A9CE8F91.tmp' to 'D:/XRMR/Tuoom/Tuoom/Content/Wjung/Blueprints/WJ_VJingTable.uasset'
+[2021.10.14-01.02.32:047][471]AssetCheck: New page: Asset Save: WJ_VJingTable
+[2021.10.14-01.02.32:047][471]LogContentValidation: Display: Validating Blueprint /Game/Wjung/Blueprints/WJ_VJingTable.WJ_VJingTable
+[2021.10.14-01.02.32:751][552]AssetReimport: Reimported asset toom_factory003 from D:/XRMR/Tuoom/Tuoom/Content/Wjung/fbx/toom_factory003.fbx.
+[2021.10.14-01.02.32:751][552]AssetReimport: Reimported asset toom_factory002 from D:/XRMR/Tuoom/Tuoom/Content/Wjung/fbx/toom_factory002.fbx.
+[2021.10.14-01.02.40:780][505]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2021.10.14-01.02.42:130][505]LogSlate: Window 'Save Content' being destroyed
+[2021.10.14-01.02.42:156][505]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Wjung/Level/Wj-PlayRoom" FILE="D:/XRMR/Tuoom/Tuoom/Content/Wjung/Level/Wj-PlayRoom.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.10.14-01.02.42:170][505]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2021.10.14-01.02.42:199][505]LogSavePackage: Moving 'D:/XRMR/Tuoom/Tuoom/Saved/Wj-PlayRoom8DD81D514C1E626B4BC4C98CE6180341.tmp' to 'D:/XRMR/Tuoom/Tuoom/Content/Wjung/Level/Wj-PlayRoom.umap'
+[2021.10.14-01.02.42:215][505]LogFileHelpers: Saving map 'Wj-PlayRoom' took 0.060
+[2021.10.14-01.02.42:223][505]AssetCheck: New page: Asset Save: Wj-PlayRoom
+[2021.10.14-01.02.42:223][505]LogContentValidation: Display: Validating World /Game/Wjung/Level/Wj-PlayRoom.Wj-PlayRoom
