@@ -30,7 +30,8 @@ template<> TUOOM_API UEnum* StaticEnum<EProbObjType>();
 
 #define FOREACH_ENUM_EPLAYROOMSTATE(op) \
 	op(EPlayRoomState::Enter) \
-	op(EPlayRoomState::Ready) \
+	op(EPlayRoomState::Set) \
+	op(EPlayRoomState::Open) \
 	op(EPlayRoomState::Playing) \
 	op(EPlayRoomState::End) 
 

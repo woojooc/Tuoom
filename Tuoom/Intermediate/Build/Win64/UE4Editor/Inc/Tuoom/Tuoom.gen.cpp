@@ -94,7 +94,7 @@ void EmptyLinkFunctionForGeneratedCodeTuoom() {}
 		return EPlayRoomState_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EPlayRoomState(EPlayRoomState_StaticEnum, TEXT("/Script/Tuoom"), TEXT("EPlayRoomState"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_Tuoom_EPlayRoomState_Hash() { return 235995286U; }
+	uint32 Get_Z_Construct_UEnum_Tuoom_EPlayRoomState_Hash() { return 2073071455U; }
 	UEnum* Z_Construct_UEnum_Tuoom_EPlayRoomState()
 	{
 #if WITH_HOT_RELOAD
@@ -107,7 +107,8 @@ void EmptyLinkFunctionForGeneratedCodeTuoom() {}
 		{
 			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
 				{ "EPlayRoomState::Enter", (int64)EPlayRoomState::Enter },
-				{ "EPlayRoomState::Ready", (int64)EPlayRoomState::Ready },
+				{ "EPlayRoomState::Set", (int64)EPlayRoomState::Set },
+				{ "EPlayRoomState::Open", (int64)EPlayRoomState::Open },
 				{ "EPlayRoomState::Playing", (int64)EPlayRoomState::Playing },
 				{ "EPlayRoomState::End", (int64)EPlayRoomState::End },
 			};
@@ -117,8 +118,9 @@ void EmptyLinkFunctionForGeneratedCodeTuoom() {}
 				{ "End.Name", "EPlayRoomState::End" },
 				{ "Enter.Name", "EPlayRoomState::Enter" },
 				{ "ModuleRelativePath", "Tuoom.h" },
+				{ "Open.Name", "EPlayRoomState::Open" },
 				{ "Playing.Name", "EPlayRoomState::Playing" },
-				{ "Ready.Name", "EPlayRoomState::Ready" },
+				{ "Set.Name", "EPlayRoomState::Set" },
 			};
 #endif
 			static const UE4CodeGen_Private::FEnumParams EnumParams = {
