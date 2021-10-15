@@ -9,6 +9,9 @@ C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Users\home\Desktop\Projects\Tuoom\Tuoom\Intermediate\Build\Win64\UE4Editor\Inc\Tuoom\C_Player.generated.h
 C:\Users\home\Desktop\Projects\Tuoom\Tuoom\Source\Tuoom\C_PlayerAnimInstance.h
 C:\Users\home\Desktop\Projects\Tuoom\Tuoom\Intermediate\Build\Win64\UE4Editor\Inc\Tuoom\C_PlayerAnimInstance.generated.h
+C:\Users\home\Desktop\Projects\Tuoom\Tuoom\Source\Tuoom\C_PlayerHandComponent.h
+C:\Users\home\Desktop\Projects\Tuoom\Tuoom\Source\Tuoom\Tuoom.h
+C:\Users\home\Desktop\Projects\Tuoom\Tuoom\Intermediate\Build\Win64\UE4Editor\Inc\Tuoom\C_PlayerHandComponent.generated.h
 C:\Users\home\Desktop\Projects\Tuoom\Tuoom\Source\Tuoom\C_PlayerMoveComponent.h
 C:\Users\home\Desktop\Projects\Tuoom\Tuoom\Intermediate\Build\Win64\UE4Editor\Inc\Tuoom\C_PlayerMoveComponent.generated.h
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\HeadMountedDisplay\Public\HeadMountedDisplayFunctionLibrary.h

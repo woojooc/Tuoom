@@ -4,6 +4,7 @@
 #include "C_Player.h"
 
 #include "C_PlayerAnimInstance.h"
+#include "C_PlayerHandComponent.h"
 #include "C_PlayerMoveComponent.h"
 #include "HeadMountedDisplayFunctionLibrary.h"
 #include "MotionControllerComponent.h"
@@ -35,9 +36,12 @@ AC_Player::AC_Player()
 	rightController->MotionSource = "Right";
 	
 	moveComp = CreateDefaultSubobject<UC_PlayerMoveComponent>(TEXT("MoveComponent"));
-	widgetPointer = CreateDefaultSubobject<UWidgetInteractionComponent>(TEXT("Widget Pointer"));
-	widgetPointer->SetupAttachment(leftController);
+	handComp = CreateDefaultSubobject<UC_PlayerHandComponent>(TEXT("HandComponent"));
 	
+	//widgetPointer_L = CreateDefaultSubobject<UWidgetInteractionComponent>(TEXT("Widget Pointer_L"));
+	//widgetPointer_L->SetupAttachment(leftController);
+	//widgetPointer_R = CreateDefaultSubobject<UWidgetInteractionComponent>(TEXT("Widget Pointer_R"));
+	//widgetPointer_R->SetupAttachment(rightController);
 }
 
 // Called when the game starts or when spawned
@@ -77,7 +81,7 @@ void AC_Player::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	
 	PlayerInputComponent->BindAction("ResetVR",IE_Pressed,this, &AC_Player::ResetHMD);
 	moveComp->SetupPlayerInputComponent(PlayerInputComponent);
-	
+	handComp->SetupPlayerInputComponent(PlayerInputComponent);
 }
 
 void AC_Player::ResetHMD()

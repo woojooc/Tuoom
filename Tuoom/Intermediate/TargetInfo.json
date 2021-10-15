@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "Tuoom",
-			"Path": "C:\\Users\\Default.DESKTOP-6F3BTUF\\Desktop\\Tuoom\\Tuoom\\Source\\Tuoom.Target.cs",
+			"Path": "C:\\Users\\home\\Desktop\\Projects\\Tuoom\\Tuoom\\Source\\Tuoom.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "TuoomEditor",
-			"Path": "C:\\Users\\Default.DESKTOP-6F3BTUF\\Desktop\\Tuoom\\Tuoom\\Source\\TuoomEditor.Target.cs",
+			"Path": "C:\\Users\\home\\Desktop\\Projects\\Tuoom\\Tuoom\\Source\\TuoomEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

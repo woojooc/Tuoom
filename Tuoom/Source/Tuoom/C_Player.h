@@ -23,13 +23,18 @@ public:
 	class UMotionControllerComponent* leftController;
 	UPROPERTY(EditAnywhere, Category = PlayerSettings)
 	class UMotionControllerComponent* rightController;
-	UPROPERTY(EditAnywhere, Category = VideoInteractions)
-	class UWidgetInteractionComponent* widgetPointer;
-
+	UPROPERTY(EditAnywhere, Category = WidgetPointer)
+	class UWidgetInteractionComponent* widgetPointer_L;
+	UPROPERTY(EditAnywhere, Category = WidgetPointer)
+	class UWidgetInteractionComponent* widgetPointer_R;
 	UPROPERTY(VisibleAnywhere, Category = AnimComponent)
 	class UC_PlayerAnimInstance* anim;
 	UPROPERTY(VisibleAnywhere, Category = MoveComponent)
 	class UC_PlayerMoveComponent* moveComp;
+	UPROPERTY(VisibleAnywhere, Category = HandComponent)
+	class UC_PlayerHandComponent* handComp;
+	
+
 	FRotator hmdRotate;
 	FVector hmdLocation;
 	

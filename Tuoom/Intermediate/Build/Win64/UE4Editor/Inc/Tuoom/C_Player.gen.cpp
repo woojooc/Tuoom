@@ -23,6 +23,7 @@ void EmptyLinkFunctionForGeneratedCodeC_Player() {}
 	UMG_API UClass* Z_Construct_UClass_UWidgetInteractionComponent_NoRegister();
 	TUOOM_API UClass* Z_Construct_UClass_UC_PlayerAnimInstance_NoRegister();
 	TUOOM_API UClass* Z_Construct_UClass_UC_PlayerMoveComponent_NoRegister();
+	TUOOM_API UClass* Z_Construct_UClass_UC_PlayerHandComponent_NoRegister();
 // End Cross Module References
 	void AC_Player::StaticRegisterNativesAC_Player()
 	{
@@ -54,9 +55,13 @@ void EmptyLinkFunctionForGeneratedCodeC_Player() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_rightController;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_widgetPointer_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_widgetPointer_L_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_widgetPointer;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_widgetPointer_L;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_widgetPointer_R_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_widgetPointer_R;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_anim_MetaData[];
 #endif
@@ -65,6 +70,10 @@ void EmptyLinkFunctionForGeneratedCodeC_Player() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_moveComp_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_moveComp;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_handComp_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_handComp;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -113,13 +122,21 @@ void EmptyLinkFunctionForGeneratedCodeC_Player() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC_Player_Statics::NewProp_rightController = { "rightController", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC_Player, rightController), Z_Construct_UClass_UMotionControllerComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AC_Player_Statics::NewProp_rightController_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC_Player_Statics::NewProp_rightController_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC_Player_Statics::NewProp_widgetPointer_MetaData[] = {
-		{ "Category", "VideoInteractions" },
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC_Player_Statics::NewProp_widgetPointer_L_MetaData[] = {
+		{ "Category", "WidgetPointer" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "C_Player.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC_Player_Statics::NewProp_widgetPointer = { "widgetPointer", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC_Player, widgetPointer), Z_Construct_UClass_UWidgetInteractionComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AC_Player_Statics::NewProp_widgetPointer_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC_Player_Statics::NewProp_widgetPointer_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC_Player_Statics::NewProp_widgetPointer_L = { "widgetPointer_L", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC_Player, widgetPointer_L), Z_Construct_UClass_UWidgetInteractionComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AC_Player_Statics::NewProp_widgetPointer_L_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC_Player_Statics::NewProp_widgetPointer_L_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC_Player_Statics::NewProp_widgetPointer_R_MetaData[] = {
+		{ "Category", "WidgetPointer" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "C_Player.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC_Player_Statics::NewProp_widgetPointer_R = { "widgetPointer_R", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC_Player, widgetPointer_R), Z_Construct_UClass_UWidgetInteractionComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AC_Player_Statics::NewProp_widgetPointer_R_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC_Player_Statics::NewProp_widgetPointer_R_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC_Player_Statics::NewProp_anim_MetaData[] = {
 		{ "Category", "AnimComponent" },
@@ -135,14 +152,24 @@ void EmptyLinkFunctionForGeneratedCodeC_Player() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC_Player_Statics::NewProp_moveComp = { "moveComp", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC_Player, moveComp), Z_Construct_UClass_UC_PlayerMoveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AC_Player_Statics::NewProp_moveComp_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC_Player_Statics::NewProp_moveComp_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AC_Player_Statics::NewProp_handComp_MetaData[] = {
+		{ "Category", "HandComponent" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "C_Player.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AC_Player_Statics::NewProp_handComp = { "handComp", nullptr, (EPropertyFlags)0x00100000000a0009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AC_Player, handComp), Z_Construct_UClass_UC_PlayerHandComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AC_Player_Statics::NewProp_handComp_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AC_Player_Statics::NewProp_handComp_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AC_Player_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Player_Statics::NewProp_cameraRoot,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Player_Statics::NewProp_playerCam,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Player_Statics::NewProp_leftController,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Player_Statics::NewProp_rightController,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Player_Statics::NewProp_widgetPointer,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Player_Statics::NewProp_widgetPointer_L,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Player_Statics::NewProp_widgetPointer_R,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Player_Statics::NewProp_anim,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Player_Statics::NewProp_moveComp,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AC_Player_Statics::NewProp_handComp,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AC_Player_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AC_Player>::IsAbstract,
@@ -171,7 +198,7 @@ void EmptyLinkFunctionForGeneratedCodeC_Player() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AC_Player, 319099272);
+	IMPLEMENT_CLASS(AC_Player, 2158874701);
 	template<> TUOOM_API UClass* StaticClass<AC_Player>()
 	{
 		return AC_Player::StaticClass();

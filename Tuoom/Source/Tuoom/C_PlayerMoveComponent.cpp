@@ -75,11 +75,11 @@ void UC_PlayerMoveComponent::RotateHorizontal(float value)
 
 void UC_PlayerMoveComponent::ButtonClick()
 {
-	player->widgetPointer->PressPointerKey(EKeys::LeftMouseButton);
+	player->widgetPointer_L->PressPointerKey(EKeys::LeftMouseButton);
 }
 
 void UC_PlayerMoveComponent::ButtonRelease()
 {
-	player->widgetPointer->ReleasePointerKey(EKeys::LeftMouseButton);
+	player->widgetPointer_L->ReleasePointerKey(EKeys::LeftMouseButton);
 }
 

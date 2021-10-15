@@ -29,4 +29,5 @@ class TUOOM_API UC_PlayerAnimInstance : public UAnimInstance
 	FVector headLocation;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = IK_Settings)
 	FRotator headRotation;
+	
 };
