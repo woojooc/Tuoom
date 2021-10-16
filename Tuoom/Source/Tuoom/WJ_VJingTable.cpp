@@ -1,13 +1,14 @@
-// Fill out your copyright notice in the Description page of Project Settings.
 
 
 #include "WJ_VJingTable.h"
+#include "WJ_PlayListCtr.h"
+#include "WJ_RoomGameModeBase.h"
 
-// Sets default values
 AWJ_VJingTable::AWJ_VJingTable()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+
+#pragma region Mesh
 
 	rootComp = CreateDefaultSubobject<USceneComponent>(TEXT("RootComp"));
 	SetRootComponent(rootComp);
@@ -47,16 +48,21 @@ AWJ_VJingTable::AWJ_VJingTable()
 		btn->SetupAttachment(playListBtnRoot);
 		playListBtns.Add(btn);
 	}
+#pragma endregion
+
+	//
+	playListStrComp = CreateDefaultSubobject<UWJ_PlayListCtr>(TEXT("PlayListCtr"));
 }
 
-// Called when the game starts or when spawned
 void AWJ_VJingTable::BeginPlay()
 {
 	Super::BeginPlay();
 	
+	gameModeBase = Cast<AWJ_RoomGameModeBase>(GetWorld()->GetAuthGameMode());
+
+	playListStrComp->Play(0);
 }
 
-// Called every frame
 void AWJ_VJingTable::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);

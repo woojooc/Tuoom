@@ -1,5 +1,3 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
 #pragma once
 
 #include "CoreMinimal.h"
@@ -12,15 +10,12 @@ class TUOOM_API AWJ_VJingTable : public AActor
 	GENERATED_BODY()
 	
 public:	
-	// Sets default values for this actor's properties
 	AWJ_VJingTable();
 
 protected:
-	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
 public:	
-	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
 	UPROPERTY(EditAnywhere, Category = "Root")
@@ -40,4 +35,12 @@ public:
 
 	UPROPERTY(EditAnywhere, Category = "PlayList")
 	class UStaticMeshComponent* playList;
+
+	// 
+	UPROPERTY(EditAnywhere, Category = "GameModeBase")
+	class AWJ_RoomGameModeBase* gameModeBase;
+
+	UPROPERTY(EditAnywhere, Category = "Component")
+		class UWJ_PlayListCtr* playListStrComp;
+
 };

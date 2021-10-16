@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include "CoreMinimal.h"
+#include "Tuoom.h"
 #include "Components/ActorComponent.h"
 #include "WJ_PlayListCtr.generated.h"
 
@@ -24,9 +24,24 @@ public:
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
+	UPROPERTY(EditAnywhere, Category = "Owner")
+	class AWJ_VJingTable* vjingTable;
+
 	UPROPERTY(EditAnywhere, Category = "SoundCue")
-	class USoundBase* sounds;
+	class USoundCue* soundCue;
 
+	UPROPERTY(EditAnywhere, Category = "AudioComp")
+	class UAudioComponent* audioComp;
 
+	int playIdx;
+	int playCount;
+	bool bEndList;
+
+	void Play();
+	void Play(int idx);
+	void Stop();
+	void Pause();
+	void Next();
+	void Prev();
 
 };

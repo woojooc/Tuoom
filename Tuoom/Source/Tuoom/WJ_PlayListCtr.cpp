@@ -1,34 +1,122 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "WJ_PlayListCtr.h"
+#include <Sound/SoundCue.h>
+#include <Components/AudioComponent.h>
+#include "WJ_VJingTable.h"
+#include "WJ_RoomGameModeBase.h"
+#include <Kismet/GameplayStatics.h>
 
-// Sets default values for this component's properties
 UWJ_PlayListCtr::UWJ_PlayListCtr()
 {
-	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
-	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
 
-	// ...
+	audioComp = CreateDefaultSubobject<UAudioComponent>(TEXT("AudioComponent"));
+	audioComp->bAutoActivate = false;
 }
 
 
-// Called when the game starts
 void UWJ_PlayListCtr::BeginPlay()
 {
 	Super::BeginPlay();
 
-	// ...
+	if (soundCue->IsValidLowLevelFast())
+	{
+		audioComp->SetSound(soundCue);
+	}
 	
+	vjingTable = Cast<AWJ_VJingTable>(GetOwner());
+	bEndList = false;
+
+
+	///*
+	auto arrayS = soundCue->AllNodes;
+	int num = arrayS.Num();
+
+	//UE_LOG(LogTemp,Warning,TEXT("%d"),num);
+
+	for (int i = 0; i < num; i++)
+	{
+		//UE_LOG(LogTemp, Warning, TEXT("%s"), *(arrayS[i]->GetName()));
+		if (arrayS[i]->GetName().Contains(TEXT("WavePlayer")))
+		{
+			playCount++;
+		}
+	}
+	UE_LOG(LogTemp,Warning,TEXT("%d"), playCount);
+	//*/
+
 }
 
-
-// Called every frame
 void UWJ_PlayListCtr::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
-	// ...
+	if (bEndList == true)
+	{
+		return;
+	}
+
+	///*
+	if (audioComp->IsPlaying() == false)
+	{
+		playIdx++;
+		if (playIdx >= playCount)
+		{
+			bEndList = true;
+			return;
+		}
+
+		Play(playIdx);
+	}
+	//*/
+}
+
+void UWJ_PlayListCtr::Play()
+{
+	if (audioComp->bIsPaused)
+	{
+		audioComp->SetPaused(false);
+		return;
+	}
+
+	audioComp->Play();
+	vjingTable->gameModeBase->SetRoomState(EPlayRoomState::Playing);
+}
+
+void UWJ_PlayListCtr::Play(int idx)
+{
+
+	if (audioComp->bIsPaused)
+	{
+		audioComp->SetPaused(false);
+		return;
+	} 
+
+	FName switchNode = TEXT("PlayList");
+	audioComp->SetIntParameter(switchNode, idx);
+	audioComp->Play();
+
+	playIdx = idx;
+
+	vjingTable->gameModeBase->SetRoomState(EPlayRoomState::Playing);
+}
+
+void UWJ_PlayListCtr::Stop()
+{
+	audioComp->Stop();
+}
+
+void UWJ_PlayListCtr::Pause()
+{
+	audioComp->SetPaused(true);
+}
+
+void UWJ_PlayListCtr::Next()
+{
+
+}
+
+void UWJ_PlayListCtr::Prev()
+{
+
 }
 

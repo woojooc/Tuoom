@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Tuoom.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{87BD8E39-44DE-40CA-A8F3-F2E10F1873A2}</UniqueIdentifier>
+      <UniqueIdentifier>{14CEAE9E-FDE1-4B74-82B9-D6E6653094A0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Tuoom.Target.cs">
       <Filter>Source</Filter>
@@ -12,26 +12,23 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{A2A142F3-C9B9-4A59-A4F6-3B5D463F3692}</UniqueIdentifier>
+      <UniqueIdentifier>{E9012A6B-DB64-4A71-9C5C-8015A07852C3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
     </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
+    <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
-    <None Include="..\..\Config\DefaultGame.ini">
+    <None Include="..\..\Config\DefaultEngine.ini">
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Tuoom">
-      <UniqueIdentifier>{9796E5F1-915C-4766-A057-BE19CA560DF8}</UniqueIdentifier>
+      <UniqueIdentifier>{F66339CB-9D91-4E9A-996D-23719222287E}</UniqueIdentifier>
     </Filter>
-    <None Include="..\..\Source\Tuoom\Tuoom.Build.cs">
-      <Filter>Source\Tuoom</Filter>
-    </None>
     <ClCompile Include="..\..\Source\Tuoom\Tuoom.cpp">
       <Filter>Source\Tuoom</Filter>
     </ClCompile>
@@ -62,10 +59,19 @@
     <ClInclude Include="..\..\Source\Tuoom\Tuoom.h">
       <Filter>Source\Tuoom</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Tuoom\WJ_PlayListCtr.cpp">
+      <Filter>Source\Tuoom</Filter>
+    </ClCompile>
     <ClInclude Include="..\..\Source\Tuoom\WJ_PlayListCtr.h">
       <Filter>Source\Tuoom</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\Tuoom\WJ_PlayListCtr.cpp">
+    <None Include="..\..\Source\Tuoom\Tuoom.Build.cs">
+      <Filter>Source\Tuoom</Filter>
+    </None>
+    <ClInclude Include="..\..\Source\Tuoom\WJ_RoomGameModeBase.h">
+      <Filter>Source\Tuoom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tuoom\WJ_RoomGameModeBase.cpp">
       <Filter>Source\Tuoom</Filter>
     </ClCompile>
   </ItemGroup>
