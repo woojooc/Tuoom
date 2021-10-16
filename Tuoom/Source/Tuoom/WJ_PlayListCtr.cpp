@@ -41,7 +41,7 @@ void UWJ_PlayListCtr::BeginPlay()
 			playCount++;
 		}
 	}
-	UE_LOG(LogTemp,Warning,TEXT("%d"), playCount);
+	//UE_LOG(LogTemp,Warning,TEXT("%d"), playCount);
 	//*/
 
 }
