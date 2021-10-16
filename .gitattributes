@@ -1,0 +1,2 @@
+Bark_N.uasset filter=lfs diff=lfs merge=lfs -text
+SharedPCH.Engine.ShadowErrors.h.pch filter=lfs diff=lfs merge=lfs -text
