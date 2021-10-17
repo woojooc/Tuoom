@@ -11,7 +11,6 @@ UC_PlayerMoveComponent::UC_PlayerMoveComponent()
 {
 	
 	PrimaryComponentTick.bCanEverTick = false;
-
 	
 }
 
@@ -48,8 +47,8 @@ void UC_PlayerMoveComponent::MoveHorizontal(float value)
 	{
 		return;
 	}
-	FVector dir = player->GetActorRightVector() * value;
-	player->SetActorLocation(player->GetActorLocation() + dir * moveSpeed * GetWorld()->DeltaTimeSeconds);
+	FVector dir = player->GetControlRotation().Quaternion().GetRightVector();
+	player->AddMovementInput(dir, value);
 }
 
 void UC_PlayerMoveComponent::MoveVertical(float value)
@@ -58,8 +57,8 @@ void UC_PlayerMoveComponent::MoveVertical(float value)
 	{
 		return;
 	}
-	FVector dir = player->GetActorForwardVector() * value;
-	player->SetActorLocation(player->GetActorLocation() + dir * moveSpeed * GetWorld()->DeltaTimeSeconds);
+	FVector dir = player->GetControlRotation().Quaternion().GetForwardVector();
+	player->AddMovementInput(dir, value);
 }
 
 void UC_PlayerMoveComponent::RotateHorizontal(float value)
