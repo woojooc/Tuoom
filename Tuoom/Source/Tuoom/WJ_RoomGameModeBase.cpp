@@ -48,7 +48,6 @@ void AWJ_RoomGameModeBase::Tick(float DeltaSeconds)
 void AWJ_RoomGameModeBase::Enter()
 {
 	SetRoomState(EPlayRoomState::Set);
-	//SetRoomState(EPlayRoomState::Playing);
 
 }
 

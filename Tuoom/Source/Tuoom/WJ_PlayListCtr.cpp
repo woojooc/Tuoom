@@ -65,7 +65,7 @@ void UWJ_PlayListCtr::TickComponent(float DeltaTime, ELevelTick TickType, FActor
 			return;
 		}
 
-		Play(playIdx);
+		PlayByIdx(playIdx);
 	}
 	//*/
 }
@@ -78,11 +78,13 @@ void UWJ_PlayListCtr::Play()
 		return;
 	}
 
+	UE_LOG(LogTemp, Warning, TEXT("Play DelegateTEST"));
+
 	audioComp->Play();
 	vjingTable->gameModeBase->SetRoomState(EPlayRoomState::Playing);
 }
 
-void UWJ_PlayListCtr::Play(int idx)
+void UWJ_PlayListCtr::PlayByIdx(int idx)
 {
 
 	if (audioComp->bIsPaused)

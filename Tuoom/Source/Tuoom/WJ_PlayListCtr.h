@@ -37,8 +37,10 @@ public:
 	int playCount;
 	bool bEndList;
 
+	UFUNCTION()
 	void Play();
-	void Play(int idx);
+
+	void PlayByIdx(int idx);
 	void Stop();
 	void Pause();
 	void Next();

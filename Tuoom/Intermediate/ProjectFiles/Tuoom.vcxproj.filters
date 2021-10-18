@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Tuoom.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{234D66C8-E6A3-411F-BFFE-3D7528019B34}</UniqueIdentifier>
+      <UniqueIdentifier>{055B6306-2221-43E7-BC70-0417BDB13228}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Tuoom.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{59544A2B-6B87-4657-9A95-CE0B2BAA0A5A}</UniqueIdentifier>
+      <UniqueIdentifier>{BFB53A30-7169-44B4-9B91-0999BF91E56B}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -20,14 +20,14 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
     <None Include="..\..\Config\DefaultInput.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\Tuoom">
-      <UniqueIdentifier>{D974C41A-8AAB-44F2-8FA5-9E823C9852A3}</UniqueIdentifier>
+      <UniqueIdentifier>{C15EF225-8380-4CCF-8F9F-3A3A1593AD3C}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Tuoom\Tuoom.cpp">
       <Filter>Source\Tuoom</Filter>
@@ -74,22 +74,28 @@
     <None Include="..\..\Source\Tuoom\Tuoom.Build.cs">
       <Filter>Source\Tuoom</Filter>
     </None>
-    <ClCompile Include="..\..\Source\Tuoom\WJ_RoomGameModeBase.cpp">
-      <Filter>Source\Tuoom</Filter>
-    </ClCompile>
     <ClInclude Include="..\..\Source\Tuoom\WJ_RoomGameModeBase.h">
       <Filter>Source\Tuoom</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\Tuoom\WJ_VJingTable.cpp">
+    <ClCompile Include="..\..\Source\Tuoom\WJ_RoomGameModeBase.cpp">
       <Filter>Source\Tuoom</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Source\Tuoom\WJ_VJingTable.h">
+    <ClInclude Include="..\..\Source\Tuoom\WJ_Button.h">
       <Filter>Source\Tuoom</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Tuoom\WJ_Button.cpp">
+      <Filter>Source\Tuoom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Tuoom\WJ_PlayListCtr.cpp">
+      <Filter>Source\Tuoom</Filter>
+    </ClCompile>
     <ClInclude Include="..\..\Source\Tuoom\WJ_PlayListCtr.h">
       <Filter>Source\Tuoom</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\Tuoom\WJ_PlayListCtr.cpp">
+    <ClInclude Include="..\..\Source\Tuoom\WJ_VJingTable.h">
+      <Filter>Source\Tuoom</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Tuoom\WJ_VJingTable.cpp">
       <Filter>Source\Tuoom</Filter>
     </ClCompile>
   </ItemGroup>
